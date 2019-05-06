@@ -14,4 +14,9 @@ class Tamagotchi {
       console.log("WAAAH!!!!!!");
       console.log(this.name + ' has current food in tummy = ' + this.foodInTummy);
     };
-   
+    puke() {
+        this.health--;
+        console.log('Bleeeeh! Sick!!!!!!');
+        console.log(this.name + ' has current health = ' + this.health);
+      };
+      
